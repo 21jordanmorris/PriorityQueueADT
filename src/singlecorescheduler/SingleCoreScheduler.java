@@ -3,7 +3,7 @@ package singlecorescheduler;
 /**
  * A application to simulate a non-preemptive scheduler for a single-core CPU
  * using a heap-based implementation of a priority queue
- * @author William Duncan, YOUR NAME
+ * @author William Duncan, Jordan Morris
  * @since 99-99-9999
  * @see Heap.java, PCB.java
  * File:SingleCoreScheduler.java
@@ -32,7 +32,6 @@ public class SingleCoreScheduler
      */
     public static void main(String []args) throws HeapException, IOException
     {
-        //implement this method
 
     }
 }

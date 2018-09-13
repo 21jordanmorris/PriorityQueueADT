@@ -30,7 +30,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     public Heap()
     {
-        //implement this method
+
 
     }
 
@@ -46,8 +46,9 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
 
     public boolean isEmpty()
     {
-        // implement this method
-
+        if(tree.size() == 0)
+            return true;
+        return false;
     }
 
     public void insert(E obj)
@@ -58,21 +59,27 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
 
     public E remove() throws HeapException
     {
-        //implement this method
+        if(isEmpty()) {
+            throw new HeapException();
+        }
+        else {
+
+        }
 
     }
 
     public E peek() throws HeapException
     {
-        //implement this method
+        if(isEmpty()) {
+            throw new HeapException();
+        }
+        else {
+            //implement this method
+        }
 
     }
 
-    public int size()
-    {
-        //implement this method
-
-    }
+    public int size() { return tree.size(); }
 
     /**
      * Swaps a parent and child elements of this heap at the specified indices
