@@ -30,8 +30,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     public Heap()
     {
-
-
+        
     }
 
     /**
