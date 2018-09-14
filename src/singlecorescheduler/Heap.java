@@ -53,8 +53,14 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
 
     public void insert(E obj)
     {
-        //implement this method
-
+        tree.add(size(), obj);
+        int place = size();
+        int parent = (place - 1) / 2;
+        while((parent >= 0) && (tree.get(place).compareTo(tree.get(parent)) == -1)) {
+            swap(place, parent);
+            place = parent;
+            parent = (place - 1) / 2;
+        }
     }
 
     public E remove() throws HeapException
@@ -63,7 +69,10 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
             throw new HeapException();
         }
         else {
-
+            E root = tree.get(0);
+            tree.set(0, tree.get(size() - 1));
+            rebuild(0, size());
+            return root;
         }
 
     }
@@ -99,7 +108,6 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     private void rebuild(int root, int eSize)
     {
-        //implement this method
 
     }
 }
