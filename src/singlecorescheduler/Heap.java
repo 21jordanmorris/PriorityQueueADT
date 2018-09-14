@@ -30,7 +30,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     public Heap()
     {
-        
+
     }
 
     /**
@@ -55,7 +55,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
         tree.add(size(), obj);
         int place = size();
         int parent = (place - 1) / 2;
-        while((parent >= 0) && (tree.get(place).compareTo(tree.get(parent)) == -1)) {
+        while((parent >= 0) && (cmp.compare(tree.get(place), tree.get(parent)) == -1)) {
             swap(place, parent);
             place = parent;
             parent = (place - 1) / 2;
@@ -65,7 +65,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
     public E remove() throws HeapException
     {
         if(isEmpty()) {
-            throw new HeapException();
+            throw new HeapException("Method invoked by an empty heap.");
         }
         else {
             E root = tree.get(0);
@@ -76,15 +76,12 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
 
     }
 
+    // UNSURE IF THIS IS CORRECT
     public E peek() throws HeapException
     {
-        if(isEmpty()) {
-            throw new HeapException();
-        }
-        else {
-            //implement this method
-        }
-
+        if(isEmpty())
+            throw new HeapException("Method invoked by an empty heap.");
+        return tree.get(0);
     }
 
     public int size() { return tree.size(); }
