@@ -76,7 +76,6 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
 
     }
 
-    // UNSURE IF THIS IS CORRECT
     public E peek() throws HeapException
     {
         if(isEmpty())
@@ -93,8 +92,9 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     private void swap(int place, int parent)
     {
-        //implement this method
-
+        E temp = tree.get(place);
+        tree.set(place, tree.get(parent));
+        tree.set(parent, temp);
     }
 
     /**
@@ -104,6 +104,16 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     private void rebuild(int root, int eSize)
     {
-
+        if(((2 * root) + 2 < eSize) || ((2 * root) + 1 < eSize)) {
+            int child = 2 * root + 1;
+            if((2 * root) + 2 < eSize) {
+                if(cmp.compare(tree.get(child+1), tree.get(child)) == -1)
+                    child = child + 1;
+            }
+            if(cmp.compare(tree.get(root), tree.get(child)) == 1) {
+                swap(root, child);
+                rebuild(child, eSize);
+            }
+        }
     }
 }

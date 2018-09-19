@@ -12,6 +12,7 @@ package singlecorescheduler;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Random;
 import java.util.Scanner;
@@ -30,9 +31,27 @@ public class SingleCoreScheduler
      *           in this format:
      * <process ID> <priority value> <cycle of process creation> <time required to execute>
      */
-    public static void main(String []args) throws HeapException, IOException
-    {
+    public static void main(String[] args) throws HeapException, IOException {
+        ArrayList<Integer> heapTest = new ArrayList<>();
+        heapTest.add(16);
+        heapTest.add(14);
+        heapTest.add(10);
+        heapTest.add(8);
+        heapTest.add(7);
+        heapTest.add(9);
+        heapTest.add(3);
+        heapTest.add(2);
+        heapTest.add(4);
+        heapTest.add(1);
 
+
+        int parent = 0;
+        if(((2 * parent) + 2 < heapTest.size()) || ((2 * parent) + 1 < heapTest.size())) {
+            System.out.println("Not a Leaf: " + heapTest.get(parent));
+        }
+        else {
+            System.out.print("Is a leaf Node");
+        }
     }
 }
 
