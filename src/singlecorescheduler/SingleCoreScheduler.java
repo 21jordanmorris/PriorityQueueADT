@@ -32,26 +32,26 @@ public class SingleCoreScheduler
      * <process ID> <priority value> <cycle of process creation> <time required to execute>
      */
     public static void main(String[] args) throws HeapException, IOException {
-        ArrayList<Integer> heapTest = new ArrayList<>();
-        heapTest.add(16);
-        heapTest.add(14);
-        heapTest.add(10);
-        heapTest.add(8);
-        heapTest.add(7);
-        heapTest.add(9);
-        heapTest.add(3);
-        heapTest.add(2);
-        heapTest.add(4);
-        heapTest.add(1);
 
+        int numberCycles = Integer.parseInt(args[0]);
+        char mode = args[1].charAt(1);
 
-        int parent = 0;
-        if(((2 * parent) + 2 < heapTest.size()) || ((2 * parent) + 1 < heapTest.size())) {
-            System.out.println("Not a Leaf: " + heapTest.get(parent));
+        //RANDOM MODE
+        if(mode == 'r' || mode == 'R') {
+            System.out.println("In Random Mode");
         }
+        //FILE MODE
+        else if(mode == 'f' || mode == 'F') {
+            Scanner inFile = new Scanner(new FileReader(args[2]));
+            for(int i = 0; i <= 96; i++) {
+                System.out.println(inFile.nextLine());
+            }
+        }
+        //THROW EXCEPTION
         else {
-            System.out.print("Is a leaf Node");
+            System.out.println("Parameter args[1] is not a valid mode.");
         }
+
     }
 }
 

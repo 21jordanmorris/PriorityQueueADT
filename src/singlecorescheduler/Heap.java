@@ -30,7 +30,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     public Heap()
     {
-
+        tree = new ArrayList<E>();
     }
 
     /**
@@ -45,9 +45,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
 
     public boolean isEmpty()
     {
-        if(tree.size() == 0)
-            return true;
-        return false;
+        return tree.size() == 0;
     }
 
     public void insert(E obj)
