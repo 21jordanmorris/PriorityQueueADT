@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="574191ad-e55c-43eb-a51a-dd6543c55159" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/singlecorescheduler/Heap.java" afterPath="$PROJECT_DIR$/src/singlecorescheduler/Heap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/singlecorescheduler/SingleCoreScheduler.java" afterPath="$PROJECT_DIR$/src/singlecorescheduler/SingleCoreScheduler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="SingleCoreScheduler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/singlecorescheduler/SingleCoreScheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -548,12 +546,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537231323611</updated>
       <workItem from="1537231326477" duration="4726000" />
-      <workItem from="1537457730269" duration="8397000" />
+      <workItem from="1537457730269" duration="8424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13513000" />
+    <option name="totallyTimeSpent" value="13540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="677" y="0" width="696" height="735" extended-state="0" />
@@ -810,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/singlecorescheduler/SingleCoreScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding />
         </state>
       </provider>

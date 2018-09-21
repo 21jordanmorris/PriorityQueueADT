@@ -46,6 +46,7 @@ public class SingleCoreScheduler
             for(int i = 0; i <= 96; i++) {
                 System.out.println(inFile.nextLine());
             }
+            inFile.close();
         }
         //THROW EXCEPTION
         else {
