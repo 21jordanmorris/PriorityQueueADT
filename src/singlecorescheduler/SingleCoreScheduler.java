@@ -4,18 +4,14 @@ package singlecorescheduler;
  * A application to simulate a non-preemptive scheduler for a single-core CPU
  * using a heap-based implementation of a priority queue
  * @author William Duncan, Jordan Morris
- * @since 99-99-9999
+ * @since 9-20-2018
  * @see Heap.java, PCB.java
  * File:SingleCoreScheduler.java
  */
 
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Random;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class SingleCoreScheduler
 {
@@ -36,18 +32,84 @@ public class SingleCoreScheduler
         int numberCycles = Integer.parseInt(args[0]);
         char mode = args[1].charAt(1);
 
+        // Output File
+        PrintStream outFile = new PrintStream(new File("simulatedjobsoutput.txt"));
+
+        Heap readyQ = new Heap();
+
         //RANDOM MODE
         if(mode == 'r' || mode == 'R') {
-            System.out.println("In Random Mode");
+            double randProb = Double.parseDouble(args[2]);
+            if(randProb < .01 || randProb > 1.00)
+                System.out.println("Parameter args[2] is not a valid input.");
+            else {
+                double rNumber;
+                for(int i = 1; i <= numberCycles; i++) {
+                    //Cycle line 1 - cycle count
+                    outFile.println("*** Cycle #: " + i);
+
+                    //Cycle line 2 - CPU current task
+                    if(readyQ.isEmpty())
+                        outFile.println("The CPU is idle.");
+                    else
+                    {
+                    }
+
+                    //Cycle line 3 - Add new job if applicable
+                    if(false) {
+
+                    }
+                    else
+                    {
+                        outFile.println("No new job this cycle.");
+                    }
+
+                    rNumber = (Math.random() * (1));
+                    if(rNumber <= randProb) {
+
+                    }
+                    else {
+
+                    }
+                }
+            }
         }
+
+
+
+
+
         //FILE MODE
         else if(mode == 'f' || mode == 'F') {
             Scanner inFile = new Scanner(new FileReader(args[2]));
-            for(int i = 0; i <= 96; i++) {
-                System.out.println(inFile.nextLine());
+            for(int i = 0; i <= numberCycles; i++) {
+                //Cycle line 1 - cycle count
+                outFile.println("*** Cycle #: " + i);
+
+                //Cycle line 2 - CPU current task
+                if(readyQ.isEmpty())
+                    outFile.println("The CPU is idle.");
+                else
+                {
+                }
+
+                //Cycle line 3 - Add new job if applicable
+                if(false) {
+
+                }
+                else
+                {
+                    outFile.println("No new job this cycle.");
+                }
             }
             inFile.close();
         }
+
+
+
+
+
+
         //THROW EXCEPTION
         else {
             System.out.println("Parameter args[1] is not a valid mode.");
