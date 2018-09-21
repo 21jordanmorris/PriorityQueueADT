@@ -36,6 +36,7 @@ public class SingleCoreScheduler
         PrintStream outFile = new PrintStream(new File("simulatedjobsoutput.txt"));
 
         Heap readyQ = new Heap();
+        readyQ.insert();
 
         //RANDOM MODE
         if(mode == 'r' || mode == 'R') {

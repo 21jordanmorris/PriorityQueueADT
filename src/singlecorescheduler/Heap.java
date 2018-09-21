@@ -31,6 +31,14 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
     public Heap()
     {
         tree = new ArrayList<E>();
+        cmp = (e1, e2) ->
+        {
+          if(e1.compareTo(e2) > 0)
+              return 1;
+          if(e1.compareTo(e2) < 0)
+              return -1;
+          return 0;
+        };
     }
 
     /**
@@ -39,7 +47,14 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     public Heap(Comparator<? super E> fn)
     {
-        // implement this method
+//        cmp = (e1, e2) ->
+//        {
+//            if(fn > e1)
+//                return 1;
+//            if(fn < e1)
+//                return -1;
+//            return 0;
+//        };
 
     }
 
