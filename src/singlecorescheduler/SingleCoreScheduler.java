@@ -32,11 +32,9 @@ public class SingleCoreScheduler
         int numberCycles = Integer.parseInt(args[0]);
         char mode = args[1].charAt(1);
 
-        // Output File
-        PrintStream outFile = new PrintStream(new File("simulatedjobsoutput.txt"));
+        Heap<PCB> readyQ = new Heap();
 
-        Heap readyQ = new Heap();
-        readyQ.insert();
+        PrintStream outFile = new PrintStream(new File("simulatedjobsoutput.txt"));
 
         //RANDOM MODE
         if(mode == 'r' || mode == 'R') {
@@ -83,39 +81,61 @@ public class SingleCoreScheduler
         //FILE MODE
         else if(mode == 'f' || mode == 'F') {
             Scanner inFile = new Scanner(new FileReader(args[2]));
-            for(int i = 0; i <= numberCycles; i++) {
+
+            //INITIALIZATION
+            int id = 0, priority = 0, cycleStart = 0, length = 0;
+            boolean iCS = true;
+
+            for(int i = 0; i < numberCycles + 1; i++) {
+
                 //Cycle line 1 - cycle count
                 outFile.println("*** Cycle #: " + i);
 
                 //Cycle line 2 - CPU current task
                 if(readyQ.isEmpty())
                     outFile.println("The CPU is idle.");
-                else
-                {
+                else {
+                    if (!(readyQ.peek().isExecuting())) {
+                        readyQ.peek().execute();
+                        readyQ.peek().setStart(i);
+                    }
+                    if(readyQ.peek().getLength() == i - readyQ.peek().getStart()) {
+                        int pid = readyQ.peek().getPid();
+                        readyQ.remove();
+                        outFile.printf("Process #%d has just been terminated.%n", pid);
+                    } else {
+                        outFile.printf("Process #%d is executing.%n", readyQ.peek().getPid());
+                    }
                 }
+
+                if(iCS && inFile.hasNextLine()) {
+                    String numbers = inFile.nextLine();
+                    String[] numbersArray = numbers.split(" ");
+
+
+                    id = Integer.parseInt(numbersArray[0]);
+                    priority = Integer.parseInt(numbersArray[1]);
+                    cycleStart = Integer.parseInt(numbersArray[2]);
+                    length = Integer.parseInt(numbersArray[3]);
+                }
+
+
+                if(i != cycleStart)
+                    iCS = false;
+                else
+                    iCS = true;
 
                 //Cycle line 3 - Add new job if applicable
-                if(false) {
-
+                if(i == cycleStart) {
+                    readyQ.insert(new PCB(id, priority, 0, 1, length));
+                    outFile.printf("Adding job with pid %d and priority %d and length %d%n",
+                            id, priority, length);
                 }
                 else
-                {
                     outFile.println("No new job this cycle.");
-                }
             }
             inFile.close();
         }
-
-
-
-
-
-
-        //THROW EXCEPTION
-        else {
-            System.out.println("Parameter args[1] is not a valid mode.");
-        }
-
     }
 }
 

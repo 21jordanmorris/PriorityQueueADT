@@ -49,7 +49,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
     {
 //        cmp = (e1, e2) ->
 //        {
-//            if(fn > e1)
+//            if(e1 > e1)
 //                return 1;
 //            if(fn < e1)
 //                return -1;
@@ -66,9 +66,9 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
     public void insert(E obj)
     {
         tree.add(size(), obj);
-        int place = size();
+        int place = tree.size() - 1;
         int parent = (place - 1) / 2;
-        while((parent >= 0) && (cmp.compare(tree.get(place), tree.get(parent)) == -1)) {
+        while((parent >= 0) && tree.get(place).compareTo(tree.get(parent)) > 0) {
             swap(place, parent);
             place = parent;
             parent = (place - 1) / 2;
@@ -128,5 +128,12 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
                 rebuild(child, eSize);
             }
         }
+    }
+
+    /**
+     * Prints Heap Array (primarily used for testing)
+     */
+    public void printTree() {
+        System.out.println(tree.toString());
     }
 }
