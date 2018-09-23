@@ -30,15 +30,9 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     public Heap()
     {
-        tree = new ArrayList<E>();
-        cmp = (e1, e2) ->
-        {
-          if(e1.compareTo(e2) > 0)
-              return 1;
-          if(e1.compareTo(e2) < 0)
-              return -1;
-          return 0;
-        };
+        tree = new ArrayList<>();
+        //Comparator.naturalOrder is same as (e1, e2) -> {return e1.compareTo(e2); };
+        cmp = Comparator.naturalOrder();
     }
 
     /**
@@ -47,15 +41,8 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     public Heap(Comparator<? super E> fn)
     {
-//        cmp = (e1, e2) ->
-//        {
-//            if(e1 > e1)
-//                return 1;
-//            if(fn < e1)
-//                return -1;
-//            return 0;
-//        };
-
+        tree = new ArrayList<>();
+        fn = cmp;
     }
 
     public boolean isEmpty()
@@ -68,7 +55,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
         tree.add(size(), obj);
         int place = tree.size() - 1;
         int parent = (place - 1) / 2;
-        while((parent >= 0) && tree.get(place).compareTo(tree.get(parent)) > 0) {
+        while((parent > 0) && tree.get(place).compareTo(tree.get(parent)) > 0) {
             swap(place, parent);
             place = parent;
             parent = (place - 1) / 2;
@@ -105,9 +92,9 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     private void swap(int place, int parent)
     {
-        E temp = tree.get(place);
-        tree.set(place, tree.get(parent));
-        tree.set(parent, temp);
+        E temp = tree.get(parent);
+        tree.set(parent, tree.get(place));
+        tree.set(place, temp);
     }
 
     /**
@@ -117,13 +104,15 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
      */
     private void rebuild(int root, int eSize)
     {
-        if(((2 * root) + 2 < eSize) || ((2 * root) + 1 < eSize)) {
-            int child = 2 * root + 1;
-            if((2 * root) + 2 < eSize) {
-                if(cmp.compare(tree.get(child+1), tree.get(child)) == -1)
-                    child = child + 1;
+        int right = (2*root) + 2;
+        int left = (2*root) + 1;
+        if((right < eSize) || (left < eSize)) {
+            int child = left;
+            if(right < eSize) {
+                if(cmp.compare(tree.get(right), tree.get(child)) > 0)
+                    child = right;
             }
-            if(cmp.compare(tree.get(root), tree.get(child)) == 1) {
+            if(cmp.compare(tree.get(root), tree.get(child)) < 0) {
                 swap(root, child);
                 rebuild(child, eSize);
             }
@@ -131,7 +120,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
     }
 
     /**
-     * Prints Heap Array (primarily used for testing)
+     * Prints Heap Array (Used for testing)
      */
     public void printTree() {
         System.out.println(tree.toString());

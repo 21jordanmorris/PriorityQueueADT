@@ -170,6 +170,11 @@ public class PCB implements Comparable<PCB>
             return 1;
         if (priority > another.priority)
             return -1;
+        if(priority == another.priority) {
+            if(pid < another.pid)
+                return 1;
+            return -1;
+        }
         return 0;
     }
 }
