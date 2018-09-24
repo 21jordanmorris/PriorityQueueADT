@@ -6,12 +6,21 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 2 ***
 The CPU is idle.
+<<<<<<< HEAD
 No new job this cycle.
 *** Cycle #: 3 ***
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 4 ***
 The CPU is idle.
+=======
+Adding job with pid #1 and priority -11 and length 78.
+*** Cycle #: 3 ***
+Process #1 is executing.
+Adding job with pid #2 and priority 16 and length 45.
+*** Cycle #: 4 ***
+Process #1 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 No new job this cycle.
 *** Cycle #: 5 ***
 The CPU is idle.
@@ -32,6 +41,7 @@ No new job this cycle.
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 11 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 12 ***
@@ -225,16 +235,220 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 75 ***
 The CPU is idle.
+=======
+Process #1 is executing.
+Adding job with pid #3 and priority 7 and length 47.
+*** Cycle #: 12 ***
+Process #1 is executing.
 No new job this cycle.
+*** Cycle #: 13 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 14 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 15 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 16 ***
+Process #1 is executing.
+Adding job with pid #4 and priority -7 and length 48.
+*** Cycle #: 17 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 18 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 19 ***
+Process #1 is executing.
+Adding job with pid #5 and priority -10 and length 19.
+*** Cycle #: 20 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 21 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 22 ***
+Process #1 is executing.
+Adding job with pid #6 and priority -17 and length 3.
+*** Cycle #: 23 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 24 ***
+Process #1 is executing.
+Adding job with pid #7 and priority 13 and length 70.
+*** Cycle #: 25 ***
+Process #1 is executing.
+Adding job with pid #8 and priority 19 and length 84.
+*** Cycle #: 26 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 27 ***
+Process #1 is executing.
+Adding job with pid #9 and priority -7 and length 15.
+*** Cycle #: 28 ***
+Process #1 is executing.
+Adding job with pid #10 and priority -6 and length 83.
+*** Cycle #: 29 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 30 ***
+Process #1 is executing.
+Adding job with pid #11 and priority 1 and length 50.
+*** Cycle #: 31 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 32 ***
+Process #1 is executing.
+Adding job with pid #12 and priority 1 and length 6.
+*** Cycle #: 33 ***
+Process #1 is executing.
+Adding job with pid #13 and priority 0 and length 48.
+*** Cycle #: 34 ***
+Process #1 is executing.
+Adding job with pid #14 and priority -11 and length 89.
+*** Cycle #: 35 ***
+Process #1 is executing.
+Adding job with pid #15 and priority -17 and length 97.
+*** Cycle #: 36 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 37 ***
+Process #1 is executing.
+Adding job with pid #16 and priority 15 and length 96.
+*** Cycle #: 38 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 39 ***
+Process #1 is executing.
+Adding job with pid #17 and priority 9 and length 2.
+*** Cycle #: 40 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 41 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 42 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 43 ***
+Process #1 is executing.
+Adding job with pid #18 and priority 5 and length 99.
+*** Cycle #: 44 ***
+Process #1 is executing.
+Adding job with pid #19 and priority -15 and length 92.
+*** Cycle #: 45 ***
+Process #1 is executing.
+Adding job with pid #20 and priority 8 and length 10.
+*** Cycle #: 46 ***
+Process #1 is executing.
+Adding job with pid #21 and priority 15 and length 57.
+*** Cycle #: 47 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 48 ***
+Process #1 is executing.
+Adding job with pid #22 and priority -7 and length 18.
+*** Cycle #: 49 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 50 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 51 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 52 ***
+Process #1 is executing.
+Adding job with pid #23 and priority 11 and length 33.
+*** Cycle #: 53 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 54 ***
+Process #1 is executing.
+Adding job with pid #24 and priority 16 and length 69.
+*** Cycle #: 55 ***
+Process #1 is executing.
+Adding job with pid #25 and priority 19 and length 8.
+*** Cycle #: 56 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 57 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 58 ***
+Process #1 is executing.
+Adding job with pid #26 and priority 2 and length 59.
+*** Cycle #: 59 ***
+Process #1 is executing.
+Adding job with pid #27 and priority 9 and length 67.
+*** Cycle #: 60 ***
+Process #1 is executing.
+Adding job with pid #28 and priority -18 and length 90.
+*** Cycle #: 61 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 62 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 63 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 64 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 65 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 66 ***
+Process #1 is executing.
+Adding job with pid #29 and priority 5 and length 85.
+*** Cycle #: 67 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 68 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 69 ***
+Process #1 is executing.
+Adding job with pid #30 and priority -15 and length 98.
+*** Cycle #: 70 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 71 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 72 ***
+Process #1 is executing.
+No new job this cycle.
+*** Cycle #: 73 ***
+Process #1 is executing.
+Adding job with pid #31 and priority -14 and length 44.
+*** Cycle #: 74 ***
+Process #1 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 75 ***
+Process #1 is executing.
+Adding job with pid #32 and priority 12 and length 78.
 *** Cycle #: 76 ***
+<<<<<<< HEAD
 The CPU is idle.
 Adding job with pid #1 and priority 10 and length 48.
+=======
+Process #1 is executing.
+Adding job with pid #33 and priority 9 and length 95.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 *** Cycle #: 77 ***
 Process #1 is executing.
 No new job this cycle.
 *** Cycle #: 78 ***
 Process #1 is executing.
+<<<<<<< HEAD
 No new job this cycle.
+=======
+Adding job with pid #34 and priority 8 and length 81.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 *** Cycle #: 79 ***
 Process #1 is executing.
 No new job this cycle.
@@ -242,6 +456,7 @@ No new job this cycle.
 Process #1 is executing.
 No new job this cycle.
 *** Cycle #: 81 ***
+<<<<<<< HEAD
 Process #1 is executing.
 No new job this cycle.
 *** Cycle #: 82 ***
@@ -264,14 +479,46 @@ Process #1 is executing.
 No new job this cycle.
 *** Cycle #: 88 ***
 Process #1 is executing.
+=======
+Process #1 has just been terminated.
 No new job this cycle.
+*** Cycle #: 82 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 83 ***
+Process #28 is executing.
+Adding job with pid #35 and priority -1 and length 29.
+*** Cycle #: 84 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 85 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 86 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 87 ***
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 88 ***
+Process #28 is executing.
+Adding job with pid #36 and priority -17 and length 21.
 *** Cycle #: 89 ***
+<<<<<<< HEAD
 Process #1 is executing.
 No new job this cycle.
 *** Cycle #: 90 ***
 Process #1 is executing.
+=======
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 No new job this cycle.
+*** Cycle #: 90 ***
+Process #28 is executing.
+Adding job with pid #37 and priority 16 and length 23.
 *** Cycle #: 91 ***
+<<<<<<< HEAD
 Process #1 is executing.
 No new job this cycle.
 *** Cycle #: 92 ***
@@ -435,8 +682,174 @@ Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 145 ***
 Process #4 is executing.
+=======
+Process #28 is executing.
 No new job this cycle.
+*** Cycle #: 92 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 93 ***
+Process #28 is executing.
+Adding job with pid #38 and priority -13 and length 17.
+*** Cycle #: 94 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 95 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 96 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 97 ***
+Process #28 is executing.
+Adding job with pid #39 and priority -14 and length 13.
+*** Cycle #: 98 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 99 ***
+Process #28 is executing.
+Adding job with pid #40 and priority -19 and length 62.
+*** Cycle #: 100 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 101 ***
+Process #28 is executing.
+Adding job with pid #41 and priority -6 and length 30.
+*** Cycle #: 102 ***
+Process #28 is executing.
+Adding job with pid #42 and priority -6 and length 11.
+*** Cycle #: 103 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 104 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 105 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 106 ***
+Process #28 is executing.
+Adding job with pid #43 and priority 0 and length 78.
+*** Cycle #: 107 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 108 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 109 ***
+Process #28 is executing.
+Adding job with pid #44 and priority 9 and length 20.
+*** Cycle #: 110 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 111 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 112 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 113 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 114 ***
+Process #28 is executing.
+Adding job with pid #45 and priority 6 and length 14.
+*** Cycle #: 115 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 116 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 117 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 118 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 119 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 120 ***
+Process #28 is executing.
+Adding job with pid #46 and priority 7 and length 28.
+*** Cycle #: 121 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 122 ***
+Process #28 is executing.
+Adding job with pid #47 and priority -4 and length 62.
+*** Cycle #: 123 ***
+Process #28 is executing.
+Adding job with pid #48 and priority -8 and length 80.
+*** Cycle #: 124 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 125 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 126 ***
+Process #28 is executing.
+Adding job with pid #49 and priority -15 and length 11.
+*** Cycle #: 127 ***
+Process #28 is executing.
+Adding job with pid #50 and priority 19 and length 37.
+*** Cycle #: 128 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 129 ***
+Process #28 is executing.
+Adding job with pid #51 and priority 14 and length 75.
+*** Cycle #: 130 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 131 ***
+Process #28 is executing.
+Adding job with pid #52 and priority -17 and length 13.
+*** Cycle #: 132 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 133 ***
+Process #28 is executing.
+Adding job with pid #53 and priority -3 and length 11.
+*** Cycle #: 134 ***
+Process #28 is executing.
+Adding job with pid #54 and priority -5 and length 83.
+*** Cycle #: 135 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 136 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 137 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 138 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 139 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 140 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 141 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 142 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 143 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 144 ***
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 145 ***
+Process #28 is executing.
+Adding job with pid #55 and priority 15 and length 93.
 *** Cycle #: 146 ***
+<<<<<<< HEAD
 Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 147 ***
@@ -447,14 +860,34 @@ Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 149 ***
 Process #4 is executing.
+=======
+Process #28 is executing.
 No new job this cycle.
+*** Cycle #: 147 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 148 ***
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 149 ***
+Process #28 is executing.
+Adding job with pid #56 and priority 11 and length 96.
 *** Cycle #: 150 ***
+<<<<<<< HEAD
 Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 151 ***
 Process #4 is executing.
+=======
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 No new job this cycle.
+*** Cycle #: 151 ***
+Process #28 is executing.
+Adding job with pid #57 and priority -6 and length 6.
 *** Cycle #: 152 ***
+<<<<<<< HEAD
 Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 153 ***
@@ -465,8 +898,21 @@ Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 155 ***
 Process #4 is executing.
+=======
+Process #28 is executing.
+Adding job with pid #58 and priority 13 and length 32.
+*** Cycle #: 153 ***
+Process #28 is executing.
 No new job this cycle.
+*** Cycle #: 154 ***
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 155 ***
+Process #28 is executing.
+Adding job with pid #59 and priority -12 and length 11.
 *** Cycle #: 156 ***
+<<<<<<< HEAD
 Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 157 ***
@@ -495,20 +941,65 @@ Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 165 ***
 Process #4 is executing.
+=======
+Process #28 is executing.
 No new job this cycle.
+*** Cycle #: 157 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 158 ***
+Process #28 is executing.
+Adding job with pid #60 and priority 1 and length 4.
+*** Cycle #: 159 ***
+Process #28 is executing.
+Adding job with pid #61 and priority 0 and length 33.
+*** Cycle #: 160 ***
+Process #28 is executing.
+Adding job with pid #62 and priority 1 and length 32.
+*** Cycle #: 161 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 162 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 163 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 164 ***
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 165 ***
+Process #28 is executing.
+Adding job with pid #63 and priority 6 and length 31.
 *** Cycle #: 166 ***
+<<<<<<< HEAD
 Process #4 is executing.
 Adding job with pid #6 and priority -5 and length 61.
 *** Cycle #: 167 ***
 Process #4 is executing.
+=======
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 No new job this cycle.
+*** Cycle #: 167 ***
+Process #28 is executing.
+Adding job with pid #64 and priority -12 and length 48.
 *** Cycle #: 168 ***
+<<<<<<< HEAD
 Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 169 ***
 Process #4 is executing.
+=======
+Process #28 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 No new job this cycle.
+*** Cycle #: 169 ***
+Process #28 is executing.
+Adding job with pid #65 and priority -1 and length 79.
 *** Cycle #: 170 ***
+<<<<<<< HEAD
 Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 171 ***
@@ -600,8 +1091,102 @@ Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 200 ***
 Process #4 is executing.
+=======
+Process #28 is executing.
 No new job this cycle.
+*** Cycle #: 171 ***
+Process #28 is executing.
+No new job this cycle.
+*** Cycle #: 172 ***
+Process #28 has just been terminated.
+Adding job with pid #66 and priority 13 and length 47.
+*** Cycle #: 173 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 174 ***
+Process #40 is executing.
+Adding job with pid #67 and priority -7 and length 77.
+*** Cycle #: 175 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 176 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 177 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 178 ***
+Process #40 is executing.
+Adding job with pid #68 and priority -4 and length 28.
+*** Cycle #: 179 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 180 ***
+Process #40 is executing.
+Adding job with pid #69 and priority -3 and length 47.
+*** Cycle #: 181 ***
+Process #40 is executing.
+Adding job with pid #70 and priority 19 and length 7.
+*** Cycle #: 182 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 183 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 184 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 185 ***
+Process #40 is executing.
+Adding job with pid #71 and priority 3 and length 72.
+*** Cycle #: 186 ***
+Process #40 is executing.
+Adding job with pid #72 and priority 17 and length 25.
+*** Cycle #: 187 ***
+Process #40 is executing.
+Adding job with pid #73 and priority 3 and length 47.
+*** Cycle #: 188 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 189 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 190 ***
+Process #40 is executing.
+Adding job with pid #74 and priority -13 and length 20.
+*** Cycle #: 191 ***
+Process #40 is executing.
+Adding job with pid #75 and priority 6 and length 62.
+*** Cycle #: 192 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 193 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 194 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 195 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 196 ***
+Process #40 is executing.
+Adding job with pid #76 and priority 18 and length 31.
+*** Cycle #: 197 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 198 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 199 ***
+Process #40 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 200 ***
+Process #40 is executing.
+Adding job with pid #77 and priority -9 and length 53.
 *** Cycle #: 201 ***
+<<<<<<< HEAD
 Process #4 is executing.
 No new job this cycle.
 *** Cycle #: 202 ***
@@ -651,8 +1236,60 @@ Process #6 is executing.
 No new job this cycle.
 *** Cycle #: 217 ***
 Process #6 is executing.
+=======
+Process #40 is executing.
+Adding job with pid #78 and priority -18 and length 46.
+*** Cycle #: 202 ***
+Process #40 is executing.
+Adding job with pid #79 and priority -3 and length 77.
+*** Cycle #: 203 ***
+Process #40 is executing.
 No new job this cycle.
+*** Cycle #: 204 ***
+Process #40 is executing.
+Adding job with pid #80 and priority 2 and length 96.
+*** Cycle #: 205 ***
+Process #40 is executing.
+Adding job with pid #81 and priority -2 and length 50.
+*** Cycle #: 206 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 207 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 208 ***
+Process #40 is executing.
+Adding job with pid #82 and priority 17 and length 55.
+*** Cycle #: 209 ***
+Process #40 is executing.
+Adding job with pid #83 and priority -12 and length 99.
+*** Cycle #: 210 ***
+Process #40 is executing.
+Adding job with pid #84 and priority 4 and length 65.
+*** Cycle #: 211 ***
+Process #40 is executing.
+Adding job with pid #85 and priority 7 and length 88.
+*** Cycle #: 212 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 213 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 214 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 215 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 216 ***
+Process #40 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 217 ***
+Process #40 is executing.
+Adding job with pid #86 and priority 14 and length 35.
 *** Cycle #: 218 ***
+<<<<<<< HEAD
 Process #6 is executing.
 No new job this cycle.
 *** Cycle #: 219 ***
@@ -765,11 +1402,129 @@ Process #6 is executing.
 No new job this cycle.
 *** Cycle #: 255 ***
 Process #6 is executing.
+=======
+Process #40 is executing.
+Adding job with pid #87 and priority 15 and length 74.
+*** Cycle #: 219 ***
+Process #40 is executing.
+Adding job with pid #88 and priority -15 and length 37.
+*** Cycle #: 220 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 221 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 222 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 223 ***
+Process #40 is executing.
+Adding job with pid #89 and priority -16 and length 13.
+*** Cycle #: 224 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 225 ***
+Process #40 is executing.
+Adding job with pid #90 and priority -11 and length 14.
+*** Cycle #: 226 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 227 ***
+Process #40 is executing.
+Adding job with pid #91 and priority -17 and length 5.
+*** Cycle #: 228 ***
+Process #40 is executing.
+Adding job with pid #92 and priority -8 and length 46.
+*** Cycle #: 229 ***
+Process #40 is executing.
+Adding job with pid #93 and priority -15 and length 15.
+*** Cycle #: 230 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 231 ***
+Process #40 is executing.
+Adding job with pid #94 and priority 16 and length 48.
+*** Cycle #: 232 ***
+Process #40 is executing.
+Adding job with pid #95 and priority -7 and length 11.
+*** Cycle #: 233 ***
+Process #40 is executing.
+No new job this cycle.
+*** Cycle #: 234 ***
+Process #40 is executing.
+Adding job with pid #96 and priority 2 and length 77.
+*** Cycle #: 235 ***
+Process #40 has just been terminated.
+Adding job with pid #97 and priority -6 and length 56.
+*** Cycle #: 236 ***
+Process #78 is executing.
+Adding job with pid #98 and priority -7 and length 59.
+*** Cycle #: 237 ***
+Process #78 is executing.
+Adding job with pid #99 and priority 17 and length 54.
+*** Cycle #: 238 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 239 ***
+Process #78 is executing.
+Adding job with pid #100 and priority 12 and length 36.
+*** Cycle #: 240 ***
+Process #78 is executing.
+Adding job with pid #101 and priority 15 and length 5.
+*** Cycle #: 241 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 242 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 243 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 244 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 245 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 246 ***
+Process #78 is executing.
+Adding job with pid #102 and priority 6 and length 60.
+*** Cycle #: 247 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 248 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 249 ***
+Process #78 is executing.
+Adding job with pid #103 and priority 8 and length 41.
+*** Cycle #: 250 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 251 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 252 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 253 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 254 ***
+Process #78 is executing.
+Adding job with pid #104 and priority -12 and length 18.
+*** Cycle #: 255 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 256 ***
+Process #78 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 No new job this cycle.
 *** Cycle #: 256 ***
 Process #6 is executing.
 Adding job with pid #8 and priority -14 and length 22.
 *** Cycle #: 257 ***
+<<<<<<< HEAD
 Process #6 is executing.
 No new job this cycle.
 *** Cycle #: 258 ***
@@ -834,8 +1589,75 @@ Process #6 has just been terminated.
 No new job this cycle.
 *** Cycle #: 278 ***
 Process #8 is executing.
+=======
+Process #78 is executing.
+Adding job with pid #105 and priority -2 and length 25.
+*** Cycle #: 258 ***
+Process #78 is executing.
 No new job this cycle.
+*** Cycle #: 259 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 260 ***
+Process #78 is executing.
+Adding job with pid #106 and priority -14 and length 32.
+*** Cycle #: 261 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 262 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 263 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 264 ***
+Process #78 is executing.
+Adding job with pid #107 and priority -13 and length 81.
+*** Cycle #: 265 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 266 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 267 ***
+Process #78 is executing.
+Adding job with pid #108 and priority -12 and length 27.
+*** Cycle #: 268 ***
+Process #78 is executing.
+Adding job with pid #109 and priority 4 and length 31.
+*** Cycle #: 269 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 270 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 271 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 272 ***
+Process #78 is executing.
+Adding job with pid #110 and priority -15 and length 2.
+*** Cycle #: 273 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 274 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 275 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 276 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 277 ***
+Process #78 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 278 ***
+Process #78 is executing.
+Adding job with pid #111 and priority -7 and length 85.
 *** Cycle #: 279 ***
+<<<<<<< HEAD
 Process #8 is executing.
 No new job this cycle.
 *** Cycle #: 280 ***
@@ -873,8 +1695,48 @@ Process #8 is executing.
 No new job this cycle.
 *** Cycle #: 291 ***
 Process #8 is executing.
+=======
+Process #78 is executing.
 No new job this cycle.
+*** Cycle #: 280 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 281 ***
+Process #78 is executing.
+No new job this cycle.
+*** Cycle #: 282 ***
+Process #78 has just been terminated.
+No new job this cycle.
+*** Cycle #: 283 ***
+Process #6 is executing.
+No new job this cycle.
+*** Cycle #: 284 ***
+Process #6 is executing.
+Adding job with pid #112 and priority -14 and length 61.
+*** Cycle #: 285 ***
+Process #6 is executing.
+No new job this cycle.
+*** Cycle #: 286 ***
+Process #6 has just been terminated.
+No new job this cycle.
+*** Cycle #: 287 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 288 ***
+Process #15 is executing.
+Adding job with pid #113 and priority -14 and length 19.
+*** Cycle #: 289 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 290 ***
+Process #15 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 291 ***
+Process #15 is executing.
+Adding job with pid #114 and priority 3 and length 85.
 *** Cycle #: 292 ***
+<<<<<<< HEAD
 Process #8 is executing.
 No new job this cycle.
 *** Cycle #: 293 ***
@@ -948,8 +1810,84 @@ Process #5 is executing.
 Adding job with pid #9 and priority 11 and length 24.
 *** Cycle #: 316 ***
 Process #5 is executing.
+=======
+Process #15 is executing.
+Adding job with pid #115 and priority -17 and length 97.
+*** Cycle #: 293 ***
+Process #15 is executing.
+Adding job with pid #116 and priority -17 and length 69.
+*** Cycle #: 294 ***
+Process #15 is executing.
 No new job this cycle.
+*** Cycle #: 295 ***
+Process #15 is executing.
+Adding job with pid #117 and priority 12 and length 4.
+*** Cycle #: 296 ***
+Process #15 is executing.
+Adding job with pid #118 and priority -14 and length 54.
+*** Cycle #: 297 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 298 ***
+Process #15 is executing.
+Adding job with pid #119 and priority 18 and length 8.
+*** Cycle #: 299 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 300 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 301 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 302 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 303 ***
+Process #15 is executing.
+Adding job with pid #120 and priority 1 and length 72.
+*** Cycle #: 304 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 305 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 306 ***
+Process #15 is executing.
+Adding job with pid #121 and priority 7 and length 82.
+*** Cycle #: 307 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 308 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 309 ***
+Process #15 is executing.
+Adding job with pid #122 and priority 5 and length 43.
+*** Cycle #: 310 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 311 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 312 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 313 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 314 ***
+Process #15 is executing.
+Adding job with pid #123 and priority -16 and length 5.
+*** Cycle #: 315 ***
+Process #15 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 316 ***
+Process #15 is executing.
+Adding job with pid #124 and priority 1 and length 36.
 *** Cycle #: 317 ***
+<<<<<<< HEAD
 Process #5 is executing.
 No new job this cycle.
 *** Cycle #: 318 ***
@@ -1008,8 +1946,69 @@ Process #5 is executing.
 No new job this cycle.
 *** Cycle #: 336 ***
 Process #5 is executing.
+=======
+Process #15 is executing.
+Adding job with pid #125 and priority 15 and length 39.
+*** Cycle #: 318 ***
+Process #15 is executing.
+Adding job with pid #126 and priority -6 and length 11.
+*** Cycle #: 319 ***
+Process #15 is executing.
 No new job this cycle.
+*** Cycle #: 320 ***
+Process #15 is executing.
+Adding job with pid #127 and priority 18 and length 5.
+*** Cycle #: 321 ***
+Process #15 is executing.
+Adding job with pid #128 and priority -17 and length 31.
+*** Cycle #: 322 ***
+Process #15 is executing.
+Adding job with pid #129 and priority -7 and length 8.
+*** Cycle #: 323 ***
+Process #15 is executing.
+Adding job with pid #130 and priority -16 and length 9.
+*** Cycle #: 324 ***
+Process #15 is executing.
+Adding job with pid #131 and priority 15 and length 69.
+*** Cycle #: 325 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 326 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 327 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 328 ***
+Process #15 is executing.
+Adding job with pid #132 and priority -13 and length 45.
+*** Cycle #: 329 ***
+Process #15 is executing.
+Adding job with pid #133 and priority -15 and length 34.
+*** Cycle #: 330 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 331 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 332 ***
+Process #15 is executing.
+Adding job with pid #134 and priority 13 and length 51.
+*** Cycle #: 333 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 334 ***
+Process #15 is executing.
+Adding job with pid #135 and priority 16 and length 33.
+*** Cycle #: 335 ***
+Process #15 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 336 ***
+Process #15 is executing.
+Adding job with pid #136 and priority -1 and length 6.
 *** Cycle #: 337 ***
+<<<<<<< HEAD
 Process #5 is executing.
 No new job this cycle.
 *** Cycle #: 338 ***
@@ -1173,8 +2172,174 @@ Process #9 is executing.
 No new job this cycle.
 *** Cycle #: 391 ***
 Process #9 is executing.
+=======
+Process #15 is executing.
 No new job this cycle.
+*** Cycle #: 338 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 339 ***
+Process #15 is executing.
+Adding job with pid #137 and priority 10 and length 72.
+*** Cycle #: 340 ***
+Process #15 is executing.
+Adding job with pid #138 and priority 8 and length 27.
+*** Cycle #: 341 ***
+Process #15 is executing.
+Adding job with pid #139 and priority -11 and length 72.
+*** Cycle #: 342 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 343 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 344 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 345 ***
+Process #15 is executing.
+Adding job with pid #140 and priority 17 and length 55.
+*** Cycle #: 346 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 347 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 348 ***
+Process #15 is executing.
+Adding job with pid #141 and priority 7 and length 73.
+*** Cycle #: 349 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 350 ***
+Process #15 is executing.
+Adding job with pid #142 and priority 0 and length 44.
+*** Cycle #: 351 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 352 ***
+Process #15 is executing.
+Adding job with pid #143 and priority -15 and length 33.
+*** Cycle #: 353 ***
+Process #15 is executing.
+Adding job with pid #144 and priority 10 and length 75.
+*** Cycle #: 354 ***
+Process #15 is executing.
+Adding job with pid #145 and priority -15 and length 13.
+*** Cycle #: 355 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 356 ***
+Process #15 is executing.
+Adding job with pid #146 and priority -1 and length 74.
+*** Cycle #: 357 ***
+Process #15 is executing.
+Adding job with pid #147 and priority -11 and length 81.
+*** Cycle #: 358 ***
+Process #15 is executing.
+Adding job with pid #148 and priority -6 and length 49.
+*** Cycle #: 359 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 360 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 361 ***
+Process #15 is executing.
+Adding job with pid #149 and priority -9 and length 43.
+*** Cycle #: 362 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 363 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 364 ***
+Process #15 is executing.
+Adding job with pid #150 and priority -2 and length 73.
+*** Cycle #: 365 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 366 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 367 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 368 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 369 ***
+Process #15 is executing.
+Adding job with pid #151 and priority 7 and length 34.
+*** Cycle #: 370 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 371 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 372 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 373 ***
+Process #15 is executing.
+Adding job with pid #152 and priority 19 and length 62.
+*** Cycle #: 374 ***
+Process #15 is executing.
+Adding job with pid #153 and priority 14 and length 62.
+*** Cycle #: 375 ***
+Process #15 is executing.
+Adding job with pid #154 and priority -9 and length 5.
+*** Cycle #: 376 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 377 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 378 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 379 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 380 ***
+Process #15 is executing.
+Adding job with pid #155 and priority 4 and length 63.
+*** Cycle #: 381 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 382 ***
+Process #15 is executing.
+No new job this cycle.
+*** Cycle #: 383 ***
+Process #15 is executing.
+Adding job with pid #156 and priority 0 and length 4.
+*** Cycle #: 384 ***
+Process #15 has just been terminated.
+Adding job with pid #157 and priority -9 and length 41.
+*** Cycle #: 385 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 386 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 387 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 388 ***
+Process #36 is executing.
+Adding job with pid #158 and priority 13 and length 85.
+*** Cycle #: 389 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 390 ***
+Process #36 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 391 ***
+Process #36 is executing.
+Adding job with pid #159 and priority -3 and length 45.
 *** Cycle #: 392 ***
+<<<<<<< HEAD
 Process #9 is executing.
 No new job this cycle.
 *** Cycle #: 393 ***
@@ -1353,8 +2518,189 @@ Process #10 is executing.
 No new job this cycle.
 *** Cycle #: 451 ***
 Process #10 is executing.
+=======
+Process #36 is executing.
 No new job this cycle.
+*** Cycle #: 393 ***
+Process #36 is executing.
+Adding job with pid #160 and priority -16 and length 90.
+*** Cycle #: 394 ***
+Process #36 is executing.
+Adding job with pid #161 and priority -16 and length 77.
+*** Cycle #: 395 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 396 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 397 ***
+Process #36 is executing.
+Adding job with pid #162 and priority -7 and length 48.
+*** Cycle #: 398 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 399 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 400 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 401 ***
+Process #36 is executing.
+Adding job with pid #163 and priority -3 and length 67.
+*** Cycle #: 402 ***
+Process #36 is executing.
+Adding job with pid #164 and priority -12 and length 79.
+*** Cycle #: 403 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 404 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 405 ***
+Process #36 is executing.
+No new job this cycle.
+*** Cycle #: 406 ***
+Process #36 has just been terminated.
+Adding job with pid #165 and priority -5 and length 3.
+*** Cycle #: 407 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 408 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 409 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 410 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 411 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 412 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 413 ***
+Process #52 is executing.
+Adding job with pid #166 and priority -11 and length 94.
+*** Cycle #: 414 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 415 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 416 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 417 ***
+Process #52 is executing.
+Adding job with pid #167 and priority 18 and length 66.
+*** Cycle #: 418 ***
+Process #52 is executing.
+Adding job with pid #168 and priority 14 and length 18.
+*** Cycle #: 419 ***
+Process #52 is executing.
+No new job this cycle.
+*** Cycle #: 420 ***
+Process #52 has just been terminated.
+No new job this cycle.
+*** Cycle #: 421 ***
+Process #91 is executing.
+No new job this cycle.
+*** Cycle #: 422 ***
+Process #91 is executing.
+No new job this cycle.
+*** Cycle #: 423 ***
+Process #91 is executing.
+No new job this cycle.
+*** Cycle #: 424 ***
+Process #91 is executing.
+No new job this cycle.
+*** Cycle #: 425 ***
+Process #91 is executing.
+No new job this cycle.
+*** Cycle #: 426 ***
+Process #91 has just been terminated.
+No new job this cycle.
+*** Cycle #: 427 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 428 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 429 ***
+Process #115 is executing.
+Adding job with pid #169 and priority -5 and length 71.
+*** Cycle #: 430 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 431 ***
+Process #115 is executing.
+Adding job with pid #170 and priority 5 and length 31.
+*** Cycle #: 432 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 433 ***
+Process #115 is executing.
+Adding job with pid #171 and priority -4 and length 40.
+*** Cycle #: 434 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 435 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 436 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 437 ***
+Process #115 is executing.
+Adding job with pid #172 and priority -9 and length 32.
+*** Cycle #: 438 ***
+Process #115 is executing.
+Adding job with pid #173 and priority 2 and length 10.
+*** Cycle #: 439 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 440 ***
+Process #115 is executing.
+Adding job with pid #174 and priority 4 and length 53.
+*** Cycle #: 441 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 442 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 443 ***
+Process #115 is executing.
+Adding job with pid #175 and priority -9 and length 89.
+*** Cycle #: 444 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 445 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 446 ***
+Process #115 is executing.
+Adding job with pid #176 and priority -15 and length 89.
+*** Cycle #: 447 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 448 ***
+Process #115 is executing.
+Adding job with pid #177 and priority 9 and length 56.
+*** Cycle #: 449 ***
+Process #115 is executing.
+Adding job with pid #178 and priority 5 and length 84.
+*** Cycle #: 450 ***
+Process #115 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 451 ***
+Process #115 is executing.
+Adding job with pid #179 and priority -18 and length 62.
 *** Cycle #: 452 ***
+<<<<<<< HEAD
 Process #10 is executing.
 No new job this cycle.
 *** Cycle #: 453 ***
@@ -1404,8 +2750,60 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 468 ***
 The CPU is idle.
+=======
+Process #115 is executing.
+Adding job with pid #180 and priority 14 and length 65.
+*** Cycle #: 453 ***
+Process #115 is executing.
 No new job this cycle.
+*** Cycle #: 454 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 455 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 456 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 457 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 458 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 459 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 460 ***
+Process #115 is executing.
+Adding job with pid #181 and priority 19 and length 93.
+*** Cycle #: 461 ***
+Process #115 is executing.
+Adding job with pid #182 and priority -4 and length 55.
+*** Cycle #: 462 ***
+Process #115 is executing.
+Adding job with pid #183 and priority -19 and length 12.
+*** Cycle #: 463 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 464 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 465 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 466 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 467 ***
+Process #115 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 468 ***
+Process #115 is executing.
+Adding job with pid #184 and priority 11 and length 29.
 *** Cycle #: 469 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 470 ***
@@ -1422,8 +2820,27 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 474 ***
 The CPU is idle.
+=======
+Process #115 is executing.
 No new job this cycle.
+*** Cycle #: 470 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 471 ***
+Process #115 is executing.
+Adding job with pid #185 and priority 16 and length 47.
+*** Cycle #: 472 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 473 ***
+Process #115 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 474 ***
+Process #115 is executing.
+Adding job with pid #186 and priority 16 and length 56.
 *** Cycle #: 475 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 476 ***
@@ -1518,8 +2935,105 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 506 ***
 The CPU is idle.
+=======
+Process #115 is executing.
+Adding job with pid #187 and priority 0 and length 63.
+*** Cycle #: 476 ***
+Process #115 is executing.
 No new job this cycle.
+*** Cycle #: 477 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 478 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 479 ***
+Process #115 is executing.
+Adding job with pid #188 and priority -10 and length 12.
+*** Cycle #: 480 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 481 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 482 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 483 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 484 ***
+Process #115 is executing.
+Adding job with pid #189 and priority -7 and length 24.
+*** Cycle #: 485 ***
+Process #115 is executing.
+Adding job with pid #190 and priority -19 and length 27.
+*** Cycle #: 486 ***
+Process #115 is executing.
+Adding job with pid #191 and priority -1 and length 91.
+*** Cycle #: 487 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 488 ***
+Process #115 is executing.
+Adding job with pid #192 and priority 4 and length 25.
+*** Cycle #: 489 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 490 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 491 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 492 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 493 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 494 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 495 ***
+Process #115 is executing.
+Adding job with pid #193 and priority 7 and length 17.
+*** Cycle #: 496 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 497 ***
+Process #115 is executing.
+Adding job with pid #194 and priority -17 and length 17.
+*** Cycle #: 498 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 499 ***
+Process #115 is executing.
+Adding job with pid #195 and priority 15 and length 58.
+*** Cycle #: 500 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 501 ***
+Process #115 is executing.
+Adding job with pid #196 and priority 0 and length 25.
+*** Cycle #: 502 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 503 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 504 ***
+Process #115 is executing.
+Adding job with pid #197 and priority -7 and length 65.
+*** Cycle #: 505 ***
+Process #115 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 506 ***
+Process #115 is executing.
+Adding job with pid #198 and priority 7 and length 22.
 *** Cycle #: 507 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 508 ***
@@ -1533,11 +3047,30 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 511 ***
 The CPU is idle.
+=======
+Process #115 is executing.
+Adding job with pid #199 and priority 8 and length 8.
+*** Cycle #: 508 ***
+Process #115 is executing.
+Adding job with pid #200 and priority -4 and length 43.
+*** Cycle #: 509 ***
+Process #115 is executing.
+Adding job with pid #201 and priority -6 and length 28.
+*** Cycle #: 510 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 511 ***
+Process #115 is executing.
+Adding job with pid #202 and priority 17 and length 69.
+*** Cycle #: 512 ***
+Process #115 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 No new job this cycle.
 *** Cycle #: 512 ***
 The CPU is idle.
 Adding job with pid #11 and priority -16 and length 4.
 *** Cycle #: 513 ***
+<<<<<<< HEAD
 Process #11 is executing.
 No new job this cycle.
 *** Cycle #: 514 ***
@@ -1548,8 +3081,21 @@ Process #11 is executing.
 No new job this cycle.
 *** Cycle #: 516 ***
 Process #11 is executing.
+=======
+Process #115 is executing.
 No new job this cycle.
+*** Cycle #: 514 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 515 ***
+Process #115 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 516 ***
+Process #115 is executing.
+Adding job with pid #203 and priority 12 and length 90.
 *** Cycle #: 517 ***
+<<<<<<< HEAD
 Process #11 has just been terminated.
 No new job this cycle.
 *** Cycle #: 518 ***
@@ -1575,8 +3121,36 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 525 ***
 The CPU is idle.
+=======
+Process #115 is executing.
 No new job this cycle.
+*** Cycle #: 518 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 519 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 520 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 521 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 522 ***
+Process #115 is executing.
+Adding job with pid #204 and priority 17 and length 90.
+*** Cycle #: 523 ***
+Process #115 is executing.
+No new job this cycle.
+*** Cycle #: 524 ***
+Process #115 has just been terminated.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 525 ***
+Process #183 is executing.
+Adding job with pid #205 and priority 15 and length 17.
 *** Cycle #: 526 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 527 ***
@@ -1668,8 +3242,102 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 556 ***
 The CPU is idle.
+=======
+Process #183 is executing.
+Adding job with pid #206 and priority -13 and length 56.
+*** Cycle #: 527 ***
+Process #183 is executing.
 No new job this cycle.
+*** Cycle #: 528 ***
+Process #183 is executing.
+Adding job with pid #207 and priority -10 and length 74.
+*** Cycle #: 529 ***
+Process #183 is executing.
+No new job this cycle.
+*** Cycle #: 530 ***
+Process #183 is executing.
+Adding job with pid #208 and priority 10 and length 7.
+*** Cycle #: 531 ***
+Process #183 is executing.
+No new job this cycle.
+*** Cycle #: 532 ***
+Process #183 is executing.
+No new job this cycle.
+*** Cycle #: 533 ***
+Process #183 is executing.
+Adding job with pid #209 and priority 18 and length 80.
+*** Cycle #: 534 ***
+Process #183 is executing.
+No new job this cycle.
+*** Cycle #: 535 ***
+Process #183 is executing.
+Adding job with pid #210 and priority 10 and length 59.
+*** Cycle #: 536 ***
+Process #183 is executing.
+No new job this cycle.
+*** Cycle #: 537 ***
+Process #183 has just been terminated.
+Adding job with pid #211 and priority -13 and length 88.
+*** Cycle #: 538 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 539 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 540 ***
+Process #190 is executing.
+Adding job with pid #212 and priority 2 and length 72.
+*** Cycle #: 541 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 542 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 543 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 544 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 545 ***
+Process #190 is executing.
+Adding job with pid #213 and priority 10 and length 32.
+*** Cycle #: 546 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 547 ***
+Process #190 is executing.
+Adding job with pid #214 and priority -17 and length 89.
+*** Cycle #: 548 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 549 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 550 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 551 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 552 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 553 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 554 ***
+Process #190 is executing.
+Adding job with pid #215 and priority 11 and length 83.
+*** Cycle #: 555 ***
+Process #190 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 556 ***
+Process #190 is executing.
+Adding job with pid #216 and priority 18 and length 67.
 *** Cycle #: 557 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 558 ***
@@ -1869,8 +3537,210 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 623 ***
 The CPU is idle.
+=======
+Process #190 is executing.
 No new job this cycle.
+*** Cycle #: 558 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 559 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 560 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 561 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 562 ***
+Process #190 is executing.
+No new job this cycle.
+*** Cycle #: 563 ***
+Process #190 is executing.
+Adding job with pid #217 and priority -12 and length 68.
+*** Cycle #: 564 ***
+Process #190 is executing.
+Adding job with pid #218 and priority 16 and length 91.
+*** Cycle #: 565 ***
+Process #190 has just been terminated.
+Adding job with pid #219 and priority -19 and length 84.
+*** Cycle #: 566 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 567 ***
+Process #179 is executing.
+Adding job with pid #220 and priority -13 and length 36.
+*** Cycle #: 568 ***
+Process #179 is executing.
+Adding job with pid #221 and priority 14 and length 54.
+*** Cycle #: 569 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 570 ***
+Process #179 is executing.
+Adding job with pid #222 and priority -3 and length 93.
+*** Cycle #: 571 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 572 ***
+Process #179 is executing.
+Adding job with pid #223 and priority 11 and length 8.
+*** Cycle #: 573 ***
+Process #179 is executing.
+Adding job with pid #224 and priority 10 and length 37.
+*** Cycle #: 574 ***
+Process #179 is executing.
+Adding job with pid #225 and priority -10 and length 90.
+*** Cycle #: 575 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 576 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 577 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 578 ***
+Process #179 is executing.
+Adding job with pid #226 and priority 8 and length 38.
+*** Cycle #: 579 ***
+Process #179 is executing.
+Adding job with pid #227 and priority -17 and length 85.
+*** Cycle #: 580 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 581 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 582 ***
+Process #179 is executing.
+Adding job with pid #228 and priority 1 and length 18.
+*** Cycle #: 583 ***
+Process #179 is executing.
+Adding job with pid #229 and priority -8 and length 71.
+*** Cycle #: 584 ***
+Process #179 is executing.
+Adding job with pid #230 and priority 14 and length 30.
+*** Cycle #: 585 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 586 ***
+Process #179 is executing.
+Adding job with pid #231 and priority -16 and length 50.
+*** Cycle #: 587 ***
+Process #179 is executing.
+Adding job with pid #232 and priority 6 and length 79.
+*** Cycle #: 588 ***
+Process #179 is executing.
+Adding job with pid #233 and priority -12 and length 96.
+*** Cycle #: 589 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 590 ***
+Process #179 is executing.
+Adding job with pid #234 and priority 8 and length 63.
+*** Cycle #: 591 ***
+Process #179 is executing.
+Adding job with pid #235 and priority 19 and length 21.
+*** Cycle #: 592 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 593 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 594 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 595 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 596 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 597 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 598 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 599 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 600 ***
+Process #179 is executing.
+Adding job with pid #236 and priority 1 and length 75.
+*** Cycle #: 601 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 602 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 603 ***
+Process #179 is executing.
+Adding job with pid #237 and priority -13 and length 67.
+*** Cycle #: 604 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 605 ***
+Process #179 is executing.
+Adding job with pid #238 and priority -13 and length 73.
+*** Cycle #: 606 ***
+Process #179 is executing.
+Adding job with pid #239 and priority -18 and length 76.
+*** Cycle #: 607 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 608 ***
+Process #179 is executing.
+Adding job with pid #240 and priority 13 and length 43.
+*** Cycle #: 609 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 610 ***
+Process #179 is executing.
+Adding job with pid #241 and priority -7 and length 44.
+*** Cycle #: 611 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 612 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 613 ***
+Process #179 is executing.
+Adding job with pid #242 and priority 11 and length 35.
+*** Cycle #: 614 ***
+Process #179 is executing.
+Adding job with pid #243 and priority -2 and length 65.
+*** Cycle #: 615 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 616 ***
+Process #179 is executing.
+Adding job with pid #244 and priority -9 and length 41.
+*** Cycle #: 617 ***
+Process #179 is executing.
+Adding job with pid #245 and priority -8 and length 52.
+*** Cycle #: 618 ***
+Process #179 is executing.
+Adding job with pid #246 and priority 5 and length 78.
+*** Cycle #: 619 ***
+Process #179 is executing.
+Adding job with pid #247 and priority -8 and length 82.
+*** Cycle #: 620 ***
+Process #179 is executing.
+Adding job with pid #248 and priority -17 and length 20.
+*** Cycle #: 621 ***
+Process #179 is executing.
+Adding job with pid #249 and priority 10 and length 22.
+*** Cycle #: 622 ***
+Process #179 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 623 ***
+Process #179 is executing.
+Adding job with pid #250 and priority -18 and length 70.
 *** Cycle #: 624 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 625 ***
@@ -1881,8 +3751,21 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 627 ***
 The CPU is idle.
+=======
+Process #179 is executing.
 No new job this cycle.
+*** Cycle #: 625 ***
+Process #179 is executing.
+No new job this cycle.
+*** Cycle #: 626 ***
+Process #179 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 627 ***
+Process #179 is executing.
+Adding job with pid #251 and priority -16 and length 6.
 *** Cycle #: 628 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 629 ***
@@ -1893,8 +3776,21 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 631 ***
 The CPU is idle.
+=======
+Process #179 has just been terminated.
+Adding job with pid #252 and priority -16 and length 85.
+*** Cycle #: 629 ***
+Process #219 is executing.
+Adding job with pid #253 and priority 17 and length 18.
+*** Cycle #: 630 ***
+Process #219 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 No new job this cycle.
+*** Cycle #: 631 ***
+Process #219 is executing.
+Adding job with pid #254 and priority 4 and length 40.
 *** Cycle #: 632 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 633 ***
@@ -1938,8 +3834,54 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 646 ***
 The CPU is idle.
+=======
+Process #219 is executing.
+Adding job with pid #255 and priority -9 and length 85.
+*** Cycle #: 633 ***
+Process #219 is executing.
+Adding job with pid #256 and priority 16 and length 29.
+*** Cycle #: 634 ***
+Process #219 is executing.
+Adding job with pid #257 and priority -12 and length 27.
+*** Cycle #: 635 ***
+Process #219 is executing.
 No new job this cycle.
+*** Cycle #: 636 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 637 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 638 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 639 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 640 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 641 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 642 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 643 ***
+Process #219 is executing.
+Adding job with pid #258 and priority 2 and length 49.
+*** Cycle #: 644 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 645 ***
+Process #219 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 646 ***
+Process #219 is executing.
+Adding job with pid #259 and priority 13 and length 75.
 *** Cycle #: 647 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 648 ***
@@ -1986,8 +3928,57 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 662 ***
 The CPU is idle.
+=======
+Process #219 is executing.
 No new job this cycle.
+*** Cycle #: 648 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 649 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 650 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 651 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 652 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 653 ***
+Process #219 is executing.
+Adding job with pid #260 and priority -11 and length 73.
+*** Cycle #: 654 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 655 ***
+Process #219 is executing.
+Adding job with pid #261 and priority 1 and length 36.
+*** Cycle #: 656 ***
+Process #219 is executing.
+Adding job with pid #262 and priority -9 and length 74.
+*** Cycle #: 657 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 658 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 659 ***
+Process #219 is executing.
+Adding job with pid #263 and priority -10 and length 59.
+*** Cycle #: 660 ***
+Process #219 is executing.
+Adding job with pid #264 and priority 6 and length 17.
+*** Cycle #: 661 ***
+Process #219 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 662 ***
+Process #219 is executing.
+Adding job with pid #265 and priority 6 and length 46.
 *** Cycle #: 663 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 664 ***
@@ -2022,8 +4013,45 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 674 ***
 The CPU is idle.
+=======
+Process #219 is executing.
 No new job this cycle.
+*** Cycle #: 664 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 665 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 666 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 667 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 668 ***
+Process #219 is executing.
+Adding job with pid #266 and priority 11 and length 72.
+*** Cycle #: 669 ***
+Process #219 is executing.
+Adding job with pid #267 and priority -3 and length 70.
+*** Cycle #: 670 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 671 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 672 ***
+Process #219 is executing.
+Adding job with pid #268 and priority 8 and length 97.
+*** Cycle #: 673 ***
+Process #219 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 674 ***
+Process #219 is executing.
+Adding job with pid #269 and priority -19 and length 73.
 *** Cycle #: 675 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 676 ***
@@ -2043,8 +4071,30 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 681 ***
 The CPU is idle.
+=======
+Process #219 is executing.
 No new job this cycle.
+*** Cycle #: 676 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 677 ***
+Process #219 is executing.
+Adding job with pid #270 and priority 12 and length 23.
+*** Cycle #: 678 ***
+Process #219 is executing.
+Adding job with pid #271 and priority -3 and length 86.
+*** Cycle #: 679 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 680 ***
+Process #219 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 681 ***
+Process #219 is executing.
+Adding job with pid #272 and priority 9 and length 26.
 *** Cycle #: 682 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 683 ***
@@ -2079,8 +4129,45 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 693 ***
 The CPU is idle.
+=======
+Process #219 is executing.
+Adding job with pid #273 and priority -14 and length 18.
+*** Cycle #: 683 ***
+Process #219 is executing.
 No new job this cycle.
+*** Cycle #: 684 ***
+Process #219 is executing.
+Adding job with pid #274 and priority 16 and length 90.
+*** Cycle #: 685 ***
+Process #219 is executing.
+Adding job with pid #275 and priority -15 and length 98.
+*** Cycle #: 686 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 687 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 688 ***
+Process #219 is executing.
+Adding job with pid #276 and priority 8 and length 16.
+*** Cycle #: 689 ***
+Process #219 is executing.
+Adding job with pid #277 and priority -16 and length 52.
+*** Cycle #: 690 ***
+Process #219 is executing.
+Adding job with pid #278 and priority 8 and length 38.
+*** Cycle #: 691 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 692 ***
+Process #219 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 693 ***
+Process #219 is executing.
+Adding job with pid #279 and priority -3 and length 94.
 *** Cycle #: 694 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 695 ***
@@ -2241,8 +4328,171 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 747 ***
 The CPU is idle.
+=======
+Process #219 is executing.
 No new job this cycle.
+*** Cycle #: 695 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 696 ***
+Process #219 is executing.
+Adding job with pid #280 and priority -19 and length 86.
+*** Cycle #: 697 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 698 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 699 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 700 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 701 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 702 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 703 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 704 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 705 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 706 ***
+Process #219 is executing.
+Adding job with pid #281 and priority 9 and length 66.
+*** Cycle #: 707 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 708 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 709 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 710 ***
+Process #219 is executing.
+No new job this cycle.
+*** Cycle #: 711 ***
+Process #219 is executing.
+Adding job with pid #282 and priority 9 and length 79.
+*** Cycle #: 712 ***
+Process #219 is executing.
+Adding job with pid #283 and priority -8 and length 91.
+*** Cycle #: 713 ***
+Process #219 has just been terminated.
+Adding job with pid #284 and priority -8 and length 72.
+*** Cycle #: 714 ***
+Process #269 is executing.
+Adding job with pid #285 and priority 19 and length 94.
+*** Cycle #: 715 ***
+Process #269 is executing.
+Adding job with pid #286 and priority -1 and length 41.
+*** Cycle #: 716 ***
+Process #269 is executing.
+Adding job with pid #287 and priority 1 and length 19.
+*** Cycle #: 717 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 718 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 719 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 720 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 721 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 722 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 723 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 724 ***
+Process #269 is executing.
+Adding job with pid #288 and priority -2 and length 47.
+*** Cycle #: 725 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 726 ***
+Process #269 is executing.
+Adding job with pid #289 and priority -6 and length 18.
+*** Cycle #: 727 ***
+Process #269 is executing.
+Adding job with pid #290 and priority -15 and length 79.
+*** Cycle #: 728 ***
+Process #269 is executing.
+Adding job with pid #291 and priority 4 and length 97.
+*** Cycle #: 729 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 730 ***
+Process #269 is executing.
+Adding job with pid #292 and priority 10 and length 89.
+*** Cycle #: 731 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 732 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 733 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 734 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 735 ***
+Process #269 is executing.
+Adding job with pid #293 and priority -4 and length 24.
+*** Cycle #: 736 ***
+Process #269 is executing.
+Adding job with pid #294 and priority -19 and length 2.
+*** Cycle #: 737 ***
+Process #269 is executing.
+Adding job with pid #295 and priority 9 and length 45.
+*** Cycle #: 738 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 739 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 740 ***
+Process #269 is executing.
+Adding job with pid #296 and priority 18 and length 85.
+*** Cycle #: 741 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 742 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 743 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 744 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 745 ***
+Process #269 is executing.
+Adding job with pid #297 and priority -17 and length 60.
+*** Cycle #: 746 ***
+Process #269 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 747 ***
+Process #269 is executing.
+Adding job with pid #298 and priority 12 and length 98.
 *** Cycle #: 748 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 749 ***
@@ -2256,8 +4506,24 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 752 ***
 The CPU is idle.
+=======
+Process #269 is executing.
+Adding job with pid #299 and priority 14 and length 2.
+*** Cycle #: 749 ***
+Process #269 is executing.
+Adding job with pid #300 and priority -2 and length 42.
+*** Cycle #: 750 ***
+Process #269 is executing.
 No new job this cycle.
+*** Cycle #: 751 ***
+Process #269 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 752 ***
+Process #269 is executing.
+Adding job with pid #301 and priority 10 and length 30.
 *** Cycle #: 753 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 754 ***
@@ -2289,8 +4555,42 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 763 ***
 The CPU is idle.
+=======
+Process #269 is executing.
 No new job this cycle.
+*** Cycle #: 754 ***
+Process #269 is executing.
+Adding job with pid #302 and priority 7 and length 75.
+*** Cycle #: 755 ***
+Process #269 is executing.
+Adding job with pid #303 and priority -19 and length 4.
+*** Cycle #: 756 ***
+Process #269 is executing.
+Adding job with pid #304 and priority -9 and length 61.
+*** Cycle #: 757 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 758 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 759 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 760 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 761 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 762 ***
+Process #269 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 763 ***
+Process #269 is executing.
+Adding job with pid #305 and priority -2 and length 11.
 *** Cycle #: 764 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 765 ***
@@ -2319,8 +4619,39 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 773 ***
 The CPU is idle.
+=======
+Process #269 is executing.
+Adding job with pid #306 and priority 7 and length 71.
+*** Cycle #: 765 ***
+Process #269 is executing.
 No new job this cycle.
+*** Cycle #: 766 ***
+Process #269 is executing.
+Adding job with pid #307 and priority -9 and length 10.
+*** Cycle #: 767 ***
+Process #269 is executing.
+Adding job with pid #308 and priority -7 and length 24.
+*** Cycle #: 768 ***
+Process #269 is executing.
+Adding job with pid #309 and priority 14 and length 66.
+*** Cycle #: 769 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 770 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 771 ***
+Process #269 is executing.
+Adding job with pid #310 and priority 0 and length 72.
+*** Cycle #: 772 ***
+Process #269 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 773 ***
+Process #269 is executing.
+Adding job with pid #311 and priority 7 and length 73.
 *** Cycle #: 774 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 775 ***
@@ -2517,8 +4848,207 @@ Process #12 is executing.
 No new job this cycle.
 *** Cycle #: 839 ***
 Process #12 is executing.
+=======
+Process #269 is executing.
 No new job this cycle.
+*** Cycle #: 775 ***
+Process #269 is executing.
+Adding job with pid #312 and priority 18 and length 9.
+*** Cycle #: 776 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 777 ***
+Process #269 is executing.
+Adding job with pid #313 and priority -10 and length 59.
+*** Cycle #: 778 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 779 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 780 ***
+Process #269 is executing.
+Adding job with pid #314 and priority -19 and length 66.
+*** Cycle #: 781 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 782 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 783 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 784 ***
+Process #269 is executing.
+Adding job with pid #315 and priority 8 and length 96.
+*** Cycle #: 785 ***
+Process #269 is executing.
+No new job this cycle.
+*** Cycle #: 786 ***
+Process #269 is executing.
+Adding job with pid #316 and priority 1 and length 55.
+*** Cycle #: 787 ***
+Process #269 has just been terminated.
+Adding job with pid #317 and priority 7 and length 28.
+*** Cycle #: 788 ***
+Process #280 is executing.
+Adding job with pid #318 and priority -10 and length 61.
+*** Cycle #: 789 ***
+Process #280 is executing.
+Adding job with pid #319 and priority -2 and length 27.
+*** Cycle #: 790 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 791 ***
+Process #280 is executing.
+Adding job with pid #320 and priority -7 and length 55.
+*** Cycle #: 792 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 793 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 794 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 795 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 796 ***
+Process #280 is executing.
+Adding job with pid #321 and priority -11 and length 75.
+*** Cycle #: 797 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 798 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 799 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 800 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 801 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 802 ***
+Process #280 is executing.
+Adding job with pid #322 and priority 0 and length 95.
+*** Cycle #: 803 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 804 ***
+Process #280 is executing.
+Adding job with pid #323 and priority 5 and length 4.
+*** Cycle #: 805 ***
+Process #280 is executing.
+Adding job with pid #324 and priority 14 and length 69.
+*** Cycle #: 806 ***
+Process #280 is executing.
+Adding job with pid #325 and priority 4 and length 32.
+*** Cycle #: 807 ***
+Process #280 is executing.
+Adding job with pid #326 and priority -13 and length 51.
+*** Cycle #: 808 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 809 ***
+Process #280 is executing.
+Adding job with pid #327 and priority -1 and length 14.
+*** Cycle #: 810 ***
+Process #280 is executing.
+Adding job with pid #328 and priority 9 and length 58.
+*** Cycle #: 811 ***
+Process #280 is executing.
+Adding job with pid #329 and priority 7 and length 15.
+*** Cycle #: 812 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 813 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 814 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 815 ***
+Process #280 is executing.
+Adding job with pid #330 and priority 0 and length 30.
+*** Cycle #: 816 ***
+Process #280 is executing.
+Adding job with pid #331 and priority -7 and length 54.
+*** Cycle #: 817 ***
+Process #280 is executing.
+Adding job with pid #332 and priority -9 and length 97.
+*** Cycle #: 818 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 819 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 820 ***
+Process #280 is executing.
+Adding job with pid #333 and priority 18 and length 67.
+*** Cycle #: 821 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 822 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 823 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 824 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 825 ***
+Process #280 is executing.
+Adding job with pid #334 and priority -7 and length 53.
+*** Cycle #: 826 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 827 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 828 ***
+Process #280 is executing.
+Adding job with pid #335 and priority -8 and length 85.
+*** Cycle #: 829 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 830 ***
+Process #280 is executing.
+Adding job with pid #336 and priority 2 and length 28.
+*** Cycle #: 831 ***
+Process #280 is executing.
+Adding job with pid #337 and priority -11 and length 34.
+*** Cycle #: 832 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 833 ***
+Process #280 is executing.
+Adding job with pid #338 and priority 14 and length 31.
+*** Cycle #: 834 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 835 ***
+Process #280 is executing.
+Adding job with pid #339 and priority 10 and length 78.
+*** Cycle #: 836 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 837 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 838 ***
+Process #280 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 839 ***
+Process #280 is executing.
+Adding job with pid #340 and priority -10 and length 46.
 *** Cycle #: 840 ***
+<<<<<<< HEAD
 Process #12 is executing.
 No new job this cycle.
 *** Cycle #: 841 ***
@@ -2571,8 +5101,63 @@ Process #12 is executing.
 No new job this cycle.
 *** Cycle #: 857 ***
 Process #12 is executing.
+=======
+Process #280 is executing.
+Adding job with pid #341 and priority -2 and length 45.
+*** Cycle #: 841 ***
+Process #280 is executing.
+Adding job with pid #342 and priority -19 and length 84.
+*** Cycle #: 842 ***
+Process #280 is executing.
 No new job this cycle.
+*** Cycle #: 843 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 844 ***
+Process #280 is executing.
+Adding job with pid #343 and priority 13 and length 93.
+*** Cycle #: 845 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 846 ***
+Process #280 is executing.
+Adding job with pid #344 and priority -16 and length 68.
+*** Cycle #: 847 ***
+Process #280 is executing.
+Adding job with pid #345 and priority 3 and length 47.
+*** Cycle #: 848 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 849 ***
+Process #280 is executing.
+Adding job with pid #346 and priority -14 and length 10.
+*** Cycle #: 850 ***
+Process #280 is executing.
+Adding job with pid #347 and priority 0 and length 42.
+*** Cycle #: 851 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 852 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 853 ***
+Process #280 is executing.
+Adding job with pid #348 and priority 6 and length 92.
+*** Cycle #: 854 ***
+Process #280 is executing.
+Adding job with pid #349 and priority -8 and length 99.
+*** Cycle #: 855 ***
+Process #280 is executing.
+Adding job with pid #350 and priority -13 and length 94.
+*** Cycle #: 856 ***
+Process #280 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 857 ***
+Process #280 is executing.
+Adding job with pid #351 and priority 2 and length 28.
 *** Cycle #: 858 ***
+<<<<<<< HEAD
 Process #12 has just been terminated.
 No new job this cycle.
 *** Cycle #: 859 ***
@@ -2598,8 +5183,36 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 866 ***
 The CPU is idle.
+=======
+Process #280 is executing.
 No new job this cycle.
+*** Cycle #: 859 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 860 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 861 ***
+Process #280 is executing.
+Adding job with pid #352 and priority -9 and length 69.
+*** Cycle #: 862 ***
+Process #280 is executing.
+Adding job with pid #353 and priority 17 and length 29.
+*** Cycle #: 863 ***
+Process #280 is executing.
+Adding job with pid #354 and priority 0 and length 77.
+*** Cycle #: 864 ***
+Process #280 is executing.
+Adding job with pid #355 and priority -15 and length 12.
+*** Cycle #: 865 ***
+Process #280 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 866 ***
+Process #280 is executing.
+Adding job with pid #356 and priority 7 and length 21.
 *** Cycle #: 867 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 868 ***
@@ -2712,8 +5325,123 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 904 ***
 The CPU is idle.
+=======
+Process #280 is executing.
+Adding job with pid #357 and priority 10 and length 78.
+*** Cycle #: 868 ***
+Process #280 is executing.
+Adding job with pid #358 and priority -19 and length 81.
+*** Cycle #: 869 ***
+Process #280 is executing.
+Adding job with pid #359 and priority 6 and length 42.
+*** Cycle #: 870 ***
+Process #280 is executing.
+Adding job with pid #360 and priority -13 and length 80.
+*** Cycle #: 871 ***
+Process #280 is executing.
 No new job this cycle.
+*** Cycle #: 872 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 873 ***
+Process #280 is executing.
+No new job this cycle.
+*** Cycle #: 874 ***
+Process #280 has just been terminated.
+No new job this cycle.
+*** Cycle #: 875 ***
+Process #294 is executing.
+No new job this cycle.
+*** Cycle #: 876 ***
+Process #294 is executing.
+Adding job with pid #361 and priority 18 and length 89.
+*** Cycle #: 877 ***
+Process #294 has just been terminated.
+Adding job with pid #362 and priority -7 and length 35.
+*** Cycle #: 878 ***
+Process #303 is executing.
+Adding job with pid #363 and priority 12 and length 31.
+*** Cycle #: 879 ***
+Process #303 is executing.
+Adding job with pid #364 and priority 9 and length 79.
+*** Cycle #: 880 ***
+Process #303 is executing.
+Adding job with pid #365 and priority 7 and length 87.
+*** Cycle #: 881 ***
+Process #303 is executing.
+No new job this cycle.
+*** Cycle #: 882 ***
+Process #303 has just been terminated.
+No new job this cycle.
+*** Cycle #: 883 ***
+Process #314 is executing.
+Adding job with pid #366 and priority 9 and length 87.
+*** Cycle #: 884 ***
+Process #314 is executing.
+Adding job with pid #367 and priority 3 and length 42.
+*** Cycle #: 885 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 886 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 887 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 888 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 889 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 890 ***
+Process #314 is executing.
+Adding job with pid #368 and priority 14 and length 49.
+*** Cycle #: 891 ***
+Process #314 is executing.
+Adding job with pid #369 and priority 17 and length 48.
+*** Cycle #: 892 ***
+Process #314 is executing.
+Adding job with pid #370 and priority -7 and length 60.
+*** Cycle #: 893 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 894 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 895 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 896 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 897 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 898 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 899 ***
+Process #314 is executing.
+Adding job with pid #371 and priority 4 and length 63.
+*** Cycle #: 900 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 901 ***
+Process #314 is executing.
+Adding job with pid #372 and priority 1 and length 22.
+*** Cycle #: 902 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 903 ***
+Process #314 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 904 ***
+Process #314 is executing.
+Adding job with pid #373 and priority -2 and length 96.
 *** Cycle #: 905 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 906 ***
@@ -2724,8 +5452,21 @@ The CPU is idle.
 No new job this cycle.
 *** Cycle #: 908 ***
 The CPU is idle.
+=======
+Process #314 is executing.
 No new job this cycle.
+*** Cycle #: 906 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 907 ***
+Process #314 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 908 ***
+Process #314 is executing.
+Adding job with pid #374 and priority 15 and length 47.
 *** Cycle #: 909 ***
+<<<<<<< HEAD
 The CPU is idle.
 No new job this cycle.
 *** Cycle #: 910 ***
@@ -2850,8 +5591,135 @@ Process #13 is executing.
 No new job this cycle.
 *** Cycle #: 950 ***
 Process #13 is executing.
+=======
+Process #314 is executing.
+Adding job with pid #375 and priority -10 and length 68.
+*** Cycle #: 910 ***
+Process #314 is executing.
 No new job this cycle.
+*** Cycle #: 911 ***
+Process #314 is executing.
+Adding job with pid #376 and priority -7 and length 75.
+*** Cycle #: 912 ***
+Process #314 is executing.
+Adding job with pid #377 and priority -5 and length 9.
+*** Cycle #: 913 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 914 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 915 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 916 ***
+Process #314 is executing.
+Adding job with pid #378 and priority 5 and length 34.
+*** Cycle #: 917 ***
+Process #314 is executing.
+Adding job with pid #379 and priority 17 and length 19.
+*** Cycle #: 918 ***
+Process #314 is executing.
+Adding job with pid #380 and priority -4 and length 84.
+*** Cycle #: 919 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 920 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 921 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 922 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 923 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 924 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 925 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 926 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 927 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 928 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 929 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 930 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 931 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 932 ***
+Process #314 is executing.
+Adding job with pid #381 and priority -17 and length 88.
+*** Cycle #: 933 ***
+Process #314 is executing.
+Adding job with pid #382 and priority -9 and length 41.
+*** Cycle #: 934 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 935 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 936 ***
+Process #314 is executing.
+Adding job with pid #383 and priority -19 and length 60.
+*** Cycle #: 937 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 938 ***
+Process #314 is executing.
+Adding job with pid #384 and priority 4 and length 32.
+*** Cycle #: 939 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 940 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 941 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 942 ***
+Process #314 is executing.
+Adding job with pid #385 and priority -5 and length 79.
+*** Cycle #: 943 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 944 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 945 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 946 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 947 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 948 ***
+Process #314 is executing.
+No new job this cycle.
+*** Cycle #: 949 ***
+Process #314 has just been terminated.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 950 ***
+Process #342 is executing.
+Adding job with pid #386 and priority 18 and length 56.
 *** Cycle #: 951 ***
+<<<<<<< HEAD
 Process #13 is executing.
 No new job this cycle.
 *** Cycle #: 952 ***
@@ -2898,8 +5766,57 @@ Process #13 is executing.
 No new job this cycle.
 *** Cycle #: 966 ***
 Process #13 is executing.
+=======
+Process #342 is executing.
 No new job this cycle.
+*** Cycle #: 952 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 953 ***
+Process #342 is executing.
+Adding job with pid #387 and priority -4 and length 29.
+*** Cycle #: 954 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 955 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 956 ***
+Process #342 is executing.
+Adding job with pid #388 and priority -2 and length 82.
+*** Cycle #: 957 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 958 ***
+Process #342 is executing.
+Adding job with pid #389 and priority -10 and length 73.
+*** Cycle #: 959 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 960 ***
+Process #342 is executing.
+Adding job with pid #390 and priority -15 and length 78.
+*** Cycle #: 961 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 962 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 963 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 964 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 965 ***
+Process #342 is executing.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
+No new job this cycle.
+*** Cycle #: 966 ***
+Process #342 is executing.
+Adding job with pid #391 and priority -19 and length 21.
 *** Cycle #: 967 ***
+<<<<<<< HEAD
 Process #13 is executing.
 No new job this cycle.
 *** Cycle #: 968 ***
@@ -3006,3 +5923,108 @@ Process #13 is executing.
 No new job this cycle.
 The average throughput is 0.01199 per cycle. 
 The average wait time is 45.4.
+=======
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 968 ***
+Process #342 is executing.
+Adding job with pid #392 and priority -4 and length 74.
+*** Cycle #: 969 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 970 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 971 ***
+Process #342 is executing.
+Adding job with pid #393 and priority 16 and length 30.
+*** Cycle #: 972 ***
+Process #342 is executing.
+Adding job with pid #394 and priority -13 and length 12.
+*** Cycle #: 973 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 974 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 975 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 976 ***
+Process #342 is executing.
+Adding job with pid #395 and priority -13 and length 39.
+*** Cycle #: 977 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 978 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 979 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 980 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 981 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 982 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 983 ***
+Process #342 is executing.
+Adding job with pid #396 and priority -2 and length 67.
+*** Cycle #: 984 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 985 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 986 ***
+Process #342 is executing.
+Adding job with pid #397 and priority -16 and length 21.
+*** Cycle #: 987 ***
+Process #342 is executing.
+Adding job with pid #398 and priority -12 and length 26.
+*** Cycle #: 988 ***
+Process #342 is executing.
+Adding job with pid #399 and priority 18 and length 87.
+*** Cycle #: 989 ***
+Process #342 is executing.
+Adding job with pid #400 and priority -1 and length 79.
+*** Cycle #: 990 ***
+Process #342 is executing.
+Adding job with pid #401 and priority 11 and length 21.
+*** Cycle #: 991 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 992 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 993 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 994 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 995 ***
+Process #342 is executing.
+Adding job with pid #402 and priority -18 and length 32.
+*** Cycle #: 996 ***
+Process #342 is executing.
+Adding job with pid #403 and priority 2 and length 41.
+*** Cycle #: 997 ***
+Process #342 is executing.
+No new job this cycle.
+*** Cycle #: 998 ***
+Process #342 is executing.
+Adding job with pid #404 and priority -2 and length 18.
+*** Cycle #: 999 ***
+Process #342 is executing.
+Adding job with pid #405 and priority -11 and length 57.
+*** Cycle #: 1000 ***
+Process #342 is executing.
+Adding job with pid #406 and priority -11 and length 10.
+The average throughput is 0.01898 per cycle. 
+The average wait time is 128.8.
+>>>>>>> fa7dcec7547fced691d7c56d3591353901120194
