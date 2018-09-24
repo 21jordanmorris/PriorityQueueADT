@@ -58,8 +58,6 @@ public class SingleCoreScheduler
                 // Random Priority
                 Random rPriorityLength = new Random(System.currentTimeMillis());
 
-                // Random Length
-
                 for (int i = 0; i <= numberCycles; i++) {
 
                     // Q Value - Random Probability Value
