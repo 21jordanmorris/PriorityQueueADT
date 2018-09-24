@@ -3,8 +3,11 @@ A Two-Mode Single-Core Non-Preemptive CPU Scheduling Simulator
 
 # Learning Objectives
 • To implement a priority queue ADT using the heap
+
 • Manipulating an extensible array
+
 • Simulating and Modeling a Queuing System
+
 CPU scheduling is the basis of multiprogramming. Whenever a computer
 CPU becomes idle, the operating system must select a process in the ready
 queue to be executed. One application of priority queues in operating systems
@@ -35,3 +38,6 @@ less than or equal to 1.0 representing the probability that a process is created
 during a CPU cycle. In file mode the remaining command line arguments are
 the -f or -F flag followed by the file name of the file containing information
 about the simulated jobs.
+
+# simulatedjobsoutput.txt
+Command Line Arguments for Given Result: 1000 -r .01
