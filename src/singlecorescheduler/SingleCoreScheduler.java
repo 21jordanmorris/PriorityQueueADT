@@ -58,11 +58,7 @@ public class SingleCoreScheduler
                 // Random number for length and priority
                 Random rPriorityLength = new Random(System.currentTimeMillis());
 
-<<<<<<< HEAD
                 for (int i = 0; i <= numberCycles+1; i++) {
-=======
-                for (int i = 0; i <= numberCycles; i++) {
->>>>>>> fa7dcec7547fced691d7c56d3591353901120194
 
                     // Q Value - Random Probability Value
                     Random rand = new Random();
@@ -170,4 +166,3 @@ public class SingleCoreScheduler
         outFile.printf("The average wait time is %.1f.", avgWait);
     }
 }
-
