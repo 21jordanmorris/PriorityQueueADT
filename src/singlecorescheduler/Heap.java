@@ -42,7 +42,7 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
     public Heap(Comparator<? super E> fn)
     {
         tree = new ArrayList<>();
-        fn = cmp;
+        cmp = fn;
     }
 
     public boolean isEmpty()
@@ -67,9 +67,15 @@ public class Heap<E extends Comparable<E>> implements HeapAPI<E>
         if(isEmpty()) {
             throw new HeapException("Method invoked by an empty heap.");
         }
+        if (size() == 1) {
+            E root = tree.get(0);
+            tree.remove(0);
+            return root;
+        }
         else {
             E root = tree.get(0);
             tree.set(0, tree.get(size() - 1));
+            tree.remove(size()-1);
             rebuild(0, size());
             return root;
         }

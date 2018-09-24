@@ -55,12 +55,10 @@ public class SingleCoreScheduler
 
                 int idCounter = 1;
 
-                // Random Priority
+                // Random number for length and priority
                 Random rPriorityLength = new Random(System.currentTimeMillis());
 
-                // Random Length
-
-                for (int i = 0; i <= numberCycles; i++) {
+                for (int i = 0; i <= numberCycles+1; i++) {
 
                     // Q Value - Random Probability Value
                     Random rand = new Random();
@@ -73,7 +71,7 @@ public class SingleCoreScheduler
                     if (readyQ.isEmpty()) {
                         outFile.println("The CPU is idle.");
                     } else {
-                        if (!(readyQ.peek().isExecuting())) {
+                        if (!readyQ.peek().isExecuting()) {
                             readyQ.peek().execute();
                             readyQ.peek().setStart(i);
                             readyQ.peek().setWait(readyQ.peek().getStart() - readyQ.peek().getArrival());
@@ -110,7 +108,7 @@ public class SingleCoreScheduler
             // Initialization
             boolean iCS = true;
 
-            for (int i = 0; i < numberCycles; i++) {
+            for (int i = 0; i < numberCycles + 1; i++) {
 
                 //Cycle line 1 - cycle count
                 outFile.println("*** Cycle #: " + i + " ***");
