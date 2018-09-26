@@ -41,3 +41,8 @@ about the simulated jobs.
 
 # simulatedjobsoutput.txt
 Command Line Arguments for Given Result: 1000 -r .01
+
+
+
+
+Information taken from Professor Duncan's Project Handout
